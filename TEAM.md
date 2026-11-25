@@ -5,7 +5,7 @@
 - Tên nhóm: AAA
 - Lớp: L3B
 - Repo nhóm: `K5-L3B-DAY13-AAA-LaunchEconomics` (xem [SUBMISSION.md](SUBMISSION.md))
-- URL repo, nhánh nộp, commit chốt: `https://github.com/giangj/K5-L3B-DAY13-AAA-LaunchEconomics`, nhánh `main` (PR từ nhánh `LeGiang-p4-03912`)
+- URL repo, nhánh nộp, commit chốt: `https://github.com/giangj/K5-L3B-DAY13-AAA-LaunchEconomics`, nhánh `main` (PR duyệt chéo từ nhánh `LeGiang-p4-03912`)
 
 ## Thành viên
 
@@ -48,7 +48,7 @@ Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 
 ### Bằng chứng
 
-- Commit `5af9559` trên nhánh `main` và file [src/lab13.py](src/lab13.py).
+- Commit `5af9559`, `9ab8462` (PR #4 `ec0ebd9`) trên nhánh `main`, [src/lab13.py](src/lab13.py), [PHAN_CONG.md](PHAN_CONG.md) và [report/team/2A202603983_LeTheAnh.md](report/team/2A202603983_LeTheAnh.md).
 
 ## Nguyễn Xuân Đạt-2A202603958
 
@@ -63,7 +63,7 @@ Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 
 ### Bằng chứng
 
-- Commit `ebc27b4` (PR #1 `f43294c`) trên nhánh `main`, [src/lab13.py](src/lab13.py) và [report/team/bang_chi_phi.md](report/team/bang_chi_phi.md).
+- Commit `ebc27b4` (PR #1 `f43294c`) và `55eb303` trên nhánh `main`, [src/lab13.py](src/lab13.py), [report/team/bang_chi_phi.md](report/team/bang_chi_phi.md) và [report/team/2A202603958_NguyenXuanDat.md](report/team/2A202603958_NguyenXuanDat.md).
 
 ## Trần Xuân Lộc-2A202603951
 
@@ -78,7 +78,7 @@ Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 
 ### Bằng chứng
 
-- Các commit `69c3f3b`, `aa30f3e`, `8b52b3b` (PR #2 `8bc87ae`) trên nhánh `main`, [report/team/pilot_plan.yaml](report/team/pilot_plan.yaml), [report/team/chi_so.md](report/team/chi_so.md), [report/team/bang_loi.md](report/team/bang_loi.md).
+- Các commit `69c3f3b`, `aa30f3e`, `8b52b3b` (PR #2 `8bc87ae`), `a86f753`, `c900aa1` trên nhánh `main`, [report/team/pilot_plan.yaml](report/team/pilot_plan.yaml), [report/team/chi_so.md](report/team/chi_so.md), [report/team/bang_loi.md](report/team/bang_loi.md) và [report/team/2A202603951_TranXuanLoc.md](report/team/2A202603951_TranXuanLoc.md).
 
 ## Lê Danh Giang-2A202603912
 
@@ -94,4 +94,4 @@ Ví dụ: `report/team/20241234_NguyenVanAn.md`.
 
 ### Bằng chứng
 
-- Nhánh `LeGiang-p4-03912`, PR vào `main`, các file [TEAM.md](TEAM.md), [report/team/bang_loi.md](report/team/bang_loi.md), [report/team/chi_so.md](report/team/chi_so.md), [report/team/ho_so_launch_v0.md](report/team/ho_so_launch_v0.md), [report/team/group_report.md](report/team/group_report.md), [report/team/2A202603912_LeDanhGiang.md](report/team/2A202603912_LeDanhGiang.md).
+- Nhánh `LeGiang-p4-03912`, PR vào `main`, các file [TEAM.md](TEAM.md), [report/team/bang_loi.md](report/team/bang_loi.md), [report/team/chi_so.md](report/team/chi_so.md), [report/team/ho_so_launch_v0.md](report/team/ho_so_launch_v0.md), [report/team/phieu_cham.md](report/team/phieu_cham.md), [report/team/group_report.md](report/team/group_report.md), [report/team/2A202603912_LeDanhGiang.md](report/team/2A202603912_LeDanhGiang.md).

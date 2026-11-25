@@ -25,7 +25,7 @@ Xây dựng bộ **hồ sơ launch v0** trình hội đồng **Gate 2a** để d
 - **Độ nhạy & giới hạn chạy lại:** Ba yếu tố nhạy nhất là số ca làm lại (`+51,8%` khi ×2), tỉ lệ xem lại (`+40,7%` khi ×2) và lương nhân viên (`+23,1%` khi +25%) (`simulated`). Giới hạn 2 lần chạy rẻ nhất cả hệ thống (`6.901.220 đ`, `simulated`). Xem lại 100% đẩy chi phí lên `11.743 đ = 0,98×` (9 phút làm lại) hoặc `12.415 đ = 1,03×` (15,3 phút làm lại) (`simulated`).
 - **Chỉ số đợt chạy thử & lỗi:** Chỉ số chính trong đợt chạy thử là `82,83%` (`994/1.200`), bỏ qua gợi ý `27,12%` (`48/177`), mở lại 7 ngày `4,25%` (`3,97%` trong `noi_dia + hang_nang`). Gắn nhãn lỗi đạt đồng thuận `20/20` (`100%`).
 - **Đề xuất cuối tại [ho_so_launch_v0.md](ho_so_launch_v0.md):** **Go có điều kiện** cho kế hoạch pilot phạm vi `noi_dia + hang_nang`, kèm 4 điều kiện có người phụ trách và hạn kiểm tra.
-- **Kết quả duyệt chéo Gate 2a:** Chờ phiên duyệt chéo tại lớp (nhóm sẽ cập nhật [phieu_cham.md](phieu_cham.md) và mục này sau khi hoàn tất phiên duyệt chéo).
+- **Kết quả duyệt chéo Gate 2a:** Nhóm AAA đạt **30/30 điểm** từ hội đồng duyệt chéo cho hồ sơ launch v0 (đề xuất **Go có điều kiện**). Ở vai trò hội đồng, nhóm AAA đã chấm hồ sơ Nhóm 4 (`K5-L3B-DAY13-Nhom4-LaunchEconomics`) đạt **30/30 điểm** với quyết định **Go có điều kiện** và ghi nhận đầy đủ tại [phieu_cham.md](phieu_cham.md).
 
 ## 5. Khó khăn và cách xử lý
 

@@ -2,20 +2,20 @@
 
 Nhóm số n chấm nhóm số n + 1; nhóm cuối chấm nhóm 1. Chấm theo bằng chứng trong hồ sơ, không theo cách trình bày: một đề xuất No-go có lý do bằng số được điểm cao hơn một đề xuất Go bỏ qua con số bất lợi.
 
-- Nhóm chấm (hội đồng): ...
-- Nhóm được chấm: ...
+- Nhóm chấm (hội đồng): Nhóm AAA (Lớp L3B)
+- Nhóm được chấm: Nhóm 4 (Lớp L3B · repo `K5-L3B-DAY13-Nhom4-LaunchEconomics`)
 
 | Tiêu chí | 0 điểm | 5 điểm | 10 điểm | Điểm | Lý do (có số) |
 | --- | --- | --- | --- | ---: | --- |
-| Đề xuất khớp bằng chứng | Mâu thuẫn với số của chính nhóm | Khớp nhưng bỏ qua một con số bất lợi | Khớp, nêu cả con số bất lợi và cách xử lý | ... | ... |
-| Số giả lập và phạm vi | Không nhãn; phạm vi "mọi yêu cầu" | Có nhãn hoặc có thu hẹp phạm vi | Nhãn ở mọi số giả lập; phạm vi thu hẹp có lý do bằng số | ... | ... |
-| Pilot ra được quyết định | Không đối chứng hoặc thiếu cỡ mẫu | Đủ cỡ mẫu, luật dừng chung chung | Tách được tác động, đủ mẫu, luật dừng có ngưỡng, thời hạn, người có quyền dừng | ... | ... |
-| **Tổng** | | | | **... / 30** | |
+| Đề xuất khớp bằng chứng | Mâu thuẫn với số của chính nhóm | Khớp nhưng bỏ qua một con số bất lợi | Khớp, nêu cả con số bất lợi và cách xử lý | 10 | Đề xuất **Go có điều kiện** khớp số liệu (`noi_dia` `0,22×`, `hang_nang` `0,69×`, cố định `4.599 đ = 0,38×`, cả hệ thống `5.865 đ = 0,49×`, `simulated`); nêu rõ con số bất lợi (`power 0,64` ở mức 5 điểm, xem lại 100% lên `11.743–12.415 đ`, làm lại ×2 `+51,8%`, `simulated`) kèm điều kiện sửa `idempotency_key` (ca 20), kiểm mẫu 100 đơn/tuần và thay cột `_simulated` sau tuần 1. Góp ý nhỏ: nên bổ sung lộ trình giảm tỉ lệ xem lại vào danh sách điều kiện Go, sửa ký hiệu `±51,8%`/`±40,7%` (giảm nửa là `−25,9%`/`−20,3%`) và đổi cột người phụ trách trong bảng hồ sơ sang vai trò vận hành LogiX-VN. |
+| Số giả lập và phạm vi | Không nhãn; phạm vi "mọi yêu cầu" | Có nhãn hoặc có thu hẹp phạm vi | Nhãn ở mọi số giả lập; phạm vi thu hẹp có lý do bằng số | 10 | Gắn đúng trạng thái `Giả lập` cho mục 1, 2, 3, 7 của `ho_so_launch_v0.md`, gắn nhãn `[simulated]` trong `bang_chi_phi.md`, `chi_so.md` và liệt kê đủ `simulated_inputs` trong `pilot_plan.yaml`; không dùng từ cấm. Phạm vi thu hẹp có lý do bằng số: giữ `noi_dia` (`0,22×`, `2.696 đ`) + `hang_nang` (`0,69×`, `8.221 đ`), loại `quoc_te` (`1,88×`, thành công `27,3%`, tỉ lệ ok tụt `30,0% → 11,4% → 2,2%`) và `doi_tac` (`0,85×`, điều khoản riêng). |
+| Pilot ra được quyết định | Không đối chứng hoặc thiếu cỡ mẫu | Đủ cỡ mẫu, luật dừng chung chung | Tách được tác động, đủ mẫu, luật dừng có ngưỡng, thời hạn, người có quyền dừng | 10 | Tách tác động tốt: chia ngẫu nhiên theo nhân viên `20 + 20` (`seed 13`, phân tầng depot), đối chứng chạy song song, đủ 20 cụm/nhóm, kiểm soát spillover theo tài khoản và log `staff_id`, chốt trước toàn bộ thông số. Đủ cỡ mẫu cho MDE `+6 điểm` (`n = 859/nhóm`, `DE = 6,96`, `m ≥ 299` yc/người); có 4 luật dừng đủ 4 vế `NẾU–TRONG–THÌ–KHÔNG THÌ` (ngưỡng an toàn `+2 điểm` so với đối chứng hoặc trần `6%` trên nền mở lại `4,25%`/`3,97%`, có thời hạn và người có quyền dừng), rollback 30 phút. |
+| **Tổng** | | | | **30 / 30** | |
 
-**Quyết định của hội đồng:** Go · Go có điều kiện · No-go (giữ một)
+**Quyết định của hội đồng:** Go có điều kiện
 
-**Lý do:** ...
+**Lý do:** Hồ sơ Nhóm 4 có số liệu chi phí và độ nhạy khớp trace (chi phí/việc TC `4.472 đ = 16,3×` hoá đơn, phạm vi `noi_dia + hang_nang` + cố định `4.599 đ = 0,38×`, `simulated`), thu hẹp phạm vi hợp lý, đồng thuận gắn nhãn `20/20` (`100%`) và kế hoạch pilot `20 + 20` nhân viên có đủ 4 luật dừng đo được. Hội đồng duyệt **Go có điều kiện** với yêu cầu bổ sung lộ trình giảm tỉ lệ xem lại vào điều kiện Go, thống nhất phạm vi 12 depot trong `pilot_plan.yaml` (thay vì ghi 6 depot như đợt chạy thử) và làm rõ luật dừng hoàn trùng kích hoạt ngay khi có `≥ 1` ca thay vì chờ 3 ngày liên tiếp.
 
-**Một câu hỏi cho đội trình:** ...
+**Một câu hỏi cho đội trình:** Trong `pilot_plan.yaml`, nhóm ghi `20 + 20` nhân viên chạy ở 6 depot nhưng lại tính khối lượng trên cả 45.000 yêu cầu/tháng của 12 depot (`921` yc/người/tháng), đồng thời chưa đưa kế hoạch giảm tỉ lệ xem lại vào 3 điều kiện Go dù B4 cho thấy xem lại 100% đẩy chi phí lên `11.743–12.415 đ` (`0,98×–1,03×`, `simulated`). Nếu tuần đầu phải xem lại 100% và chỉ chạy ở 6 depot, pilot còn tiết kiệm và kịp đủ `m ≥ 299` yêu cầu/nhân viên trong 2 tuần không?
 
-**Câu trả lời của đội trình (ghi lại tại buổi):** ...
+**Câu trả lời của đội trình (ghi lại tại buổi):** Nhóm 4 làm rõ hai điểm: (1) Ở tuần 1 (bước `0.10`, 4 nhân viên), nhóm chấp nhận xem lại cao để đảm bảo an toàn và đo thời gian xem lại/làm lại thực tế qua `staff_review_decision` và `staff_rework_completed`, sau đó áp dụng lộ trình hạ tỉ lệ xem lại theo bậc từ bước `0.25` khi tỉ lệ `sua + bo < 15%` (như đã nêu ở E2 trong `chi_so.md`) nhằm giữ thời gian xem lại dưới ngưỡng hoà vốn `4,8–5,1` phút/lần; (2) Về quy mô depot, pilot triển khai trên toàn bộ 12 depot với 40 nhân viên (`921` yc/người/tháng) nên bước `0.50` chạy tối thiểu 2 tuần vẫn đủ `m ≥ 299` yc/người, nhóm ghi nhận sửa lại chi tiết "6 depot" viết nhầm từ đợt chạy thử trong `pilot_plan.yaml` và cập nhật vai trò vận hành LogiX-VN trong bảng hồ sơ.
